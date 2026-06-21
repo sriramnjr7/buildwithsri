@@ -1,0 +1,26 @@
+.grid {
+  margin-bottom: var(--space-10);
+}
+
+.card {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-4);
+  height: 100%;
+}
+
+.icon {
+  font-size: 1.8rem;
+  min-width: 40px;
+}
+
+.text {
+  font-size: var(--text-base);
+  color: var(--text-secondary);
+  line-height: 1.7;
+  font-style: italic;
+}
+
+.cta {
+  text-align: center;
+}

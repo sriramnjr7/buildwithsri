@@ -1,0 +1,54 @@
+.grid {
+  gap: var(--space-4);
+}
+
+.cardLink {
+  text-decoration: none;
+  display: block;
+  height: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  height: 100%;
+  padding: var(--space-6);
+  position: relative;
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.name {
+  font-size: var(--text-base);
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.tagline {
+  font-size: var(--text-sm);
+  color: var(--accent-secondary);
+  font-weight: 500;
+}
+
+.example {
+  font-size: var(--text-xs);
+  color: var(--text-tertiary);
+  line-height: 1.6;
+}
+
+.arrow {
+  position: absolute;
+  top: var(--space-6);
+  right: var(--space-6);
+  font-size: var(--text-lg);
+  color: var(--text-tertiary);
+  transition: all var(--duration-fast) var(--ease-in-out);
+}
+
+.card:hover .arrow {
+  color: var(--accent-primary);
+  transform: translateX(4px);
+}
